@@ -1,4 +1,4 @@
-scuberGreetingForFeet(numFeet) {
+function scuberGreetingForFeet(numFeet) {
   if ( numFeet <= 400 ) {
     document.write( "Enjoy your free sample!" )  }
   else if ( numFeet > 2000 ) {
@@ -27,3 +27,6 @@ function switchOnCharmFromTip(tip){
   }
 }
 
+scuberGreetingForFeet(500);
+ternaryCheckCity("Boston");
+switchOnCharmFromTip(4);
