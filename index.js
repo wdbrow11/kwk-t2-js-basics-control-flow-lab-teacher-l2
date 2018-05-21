@@ -9,3 +9,12 @@ scuberGreetingForFeet() {
   document.write( "We do not allow rides over 2500 feet" )
   }
 }
+
+function ternaryCheckCity() {
+  if (city === "NYC"){
+    return ("Ok, sounds good")
+  } else if ( city !== "NYC") {
+    return ("No go.")
+  }
+}
+
