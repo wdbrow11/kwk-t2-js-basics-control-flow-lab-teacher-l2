@@ -1,4 +1,4 @@
-scuberGreetingForFeet() {
+function scuberGreetingForFeet() {
   let numFeet = 400
   if ( numFeet <= 400 ) {
     document.write( "Enjoy your free sample!" )  }
