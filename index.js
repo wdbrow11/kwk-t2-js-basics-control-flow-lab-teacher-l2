@@ -1,5 +1,4 @@
-scuberGreetingForFeet() {
-  let numFeet = 400
+scuberGreetingForFeet(numFeet) {
   if ( numFeet <= 400 ) {
     document.write( "Enjoy your free sample!" )  }
   else if ( numFeet > 2000 ) {
@@ -10,11 +9,21 @@ scuberGreetingForFeet() {
   }
 }
 
-function ternaryCheckCity() {
+function ternaryCheckCity(city) {
   if (city === "NYC"){
     return ("Ok, sounds good")
   } else if ( city !== "NYC") {
     return ("No go.")
+  }
+}
+
+function switchOnCharmFromTip(tip){
+  if (tip >= 10){
+    return ("Thank you so much.")
+  } else if (tip >= 5) {
+    return ("Thank you.")
+  } else {
+    return ("Bye.")
   }
 }
 
