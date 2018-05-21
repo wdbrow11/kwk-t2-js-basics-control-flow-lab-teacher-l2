@@ -1,4 +1,4 @@
-function scuberGreetingForFeet() {
+scuberGreetingForFeet() {
   let numFeet = 400
   if ( numFeet > 2500 ) {
     document.write( "We do not allow rides over 2500 feet" )
