@@ -9,5 +9,3 @@ scuberGreetingForFeet() {
   document.write( "We do not allow rides over 2500 feet" )
   }
 }
-
-scuberGreetingForFeet();
